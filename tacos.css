@@ -1,0 +1,138 @@
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    border-radius: 15%;
+    width: 100%;
+
+}
+
+input,
+button,
+textarea{
+    font: inherit;
+}
+body {
+    background-color:white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.offscreen{
+    position: absolute;
+    left: -1000px;
+}
+
+table, tr, th, td, caption {
+    background-color: #333;
+    color: burlywood;
+    border: 1px double white;
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: collapse;
+    padding: 0.5rem;
+    width: 100%;
+    height: 100%;
+}
+
+html{
+    background-color: burlywood;
+    color: black;
+    height: 7px;
+}
+
+h1{
+    color: whitesmoke;
+    font-size: 64px;
+    text-align: center;
+    background-color:black ;
+    
+}
+.aim{
+    font-weight: bolder;
+    font-size: 40px;
+    color: green;
+}
+nav{
+    background-color: white;
+    border-bottom: #333 solid 0.2rem;
+}
+
+a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+ul{ 
+    text-decoration: none;
+    background-color: white;
+    color: aquamarine;
+    font-style: oblique;
+    font-display: 32px;
+    display:flex ;
+    justify-content: space-around;
+
+}
+
+li{
+    text-decoration: solid;
+}
+
+
+
+h2, h3{
+    color:  green;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: start;
+    padding: 20px;
+}
+
+
+a{
+   color:#333;
+}
+
+a:visited {
+   color:#333;
+}
+
+.contact__h2 {
+    margin: 0;
+}
+
+.contact__fieldset {
+    border: none;
+}
+
+.contact__p {
+    margin: 1em 0;
+}
+
+.contact__label{
+    display: block;
+    font-weight: bold;
+}
+
+.contact__input,
+.contact__textarea{
+    padding: 0.5em;
+    border-radius: 15px;
+    border-width: 2px;
+    width: 100%;
+}
+
+.contact__button{
+    padding: 0.5px;
+    border-radius: 15px;
+    background-color: green;
+}
+.footer{ 
+    color: white;
+}
+
+footer{
+    border-top: #333 solid 0.2px;
+    background-color: black;
+    color: white;
+}
